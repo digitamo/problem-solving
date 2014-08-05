@@ -19,15 +19,4 @@ public class No5 {
 			}
 		}
 	}
-
-	private static boolean isPrime(long x) {
-
-		// the fastest way to check if a number is prime or not is to check to
-		// the square root of this number
-		for (int i = 2; i <= Math.sqrt(x); i++) {
-			if (x % i == 0)
-				return false;
-		}
-		return true;
-	}
 }
